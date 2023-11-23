@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="logo">
+                <a href="../index.html">Digital</a>
+            </span>
+            <span class="menu">
+                <a href="../CadastroPage/index.html">Home</a>
+                <a href="../LoginPage/index.html">About us</a>
+                <a href="../LoginPage/index.html">Blog</a>
+                <a href="../LoginPage/index.html">Pricing</a>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="leftPanel">
+            <span class="tittle">
+                <h1>
+                    Artificial Intelligence Driving Results For The Travel Industry
+                </h1>
+            </span>
+            <span class="saudation">
+                <h3>
+                    Welcome back! Please login to your account.
+                </h3>
+            </span>
+            <form action="login.php" method="post">
+                <div class="input email-input"> <!-- Added class "email-input" -->
+                    <p>Email Address</p>
+                    <input type="text" name="email">
+                </div>
+                <div class="input password-input"> <!-- Added class "password-input" -->
+                    <p>Password</p>
+                    <input type="password" name="password">
+                </div>
+                <div class="options">
+                    <span>
+                        <input type="checkbox" name="rememberMe" value="1"> 
+                        Remember Me
+                    </span>
+                    <a href="#" class="forgot-password-link">Forget Password?</a>  <!-- Added class "forgot-password-link" -->
+                </div>
+                <div class="finalization">
+                    <button type="submit" class="login-btn">Login</button> <!-- Added class "login-btn" -->
+                    <a href="#" class="signup-link signup-btn">Sign Up</a> <!-- Added classes "signup-link" and "signup-btn" -->
+                </div>
+                <div class="social">
+                    <p>or login with:</p>
+                    <div>
+                        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-google"></ion-icon></a>       
+                    </div> 
+                </div>        
+            </form>
+            <div class="footer">
+                <p>Designed by <a href="https://www.figma.com/community/file/852468565098199649">Hakeem Olasupo</a></p>
+                <p>Coded by <a href="https://www.linkedin.com/in/dotMota/">dotMota</a></p>
+            </div>      
+        </section>
+        <section class="rightPanel">
+        </section>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
